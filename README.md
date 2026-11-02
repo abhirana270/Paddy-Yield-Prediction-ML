@@ -138,6 +138,16 @@ Paddy-Yield-Prediction-ML/
 └── README.md
 ```
 
+## 🌐 Web Application
+
+The [`webapp/`](webapp/) folder contains a deployable web app: a React frontend and a FastAPI backend, hosted together on Vercel.
+
+- Users enter 5 farm details: area, agricultural block, variety, soil type and nursery. The API rebuilds the 44 model features from these.
+- The app predicts the Low, Medium or High yield category with the Logistic Regression model, plus an estimated yield in kg.
+- It shows model comparison, a confusion matrix and the derived model inputs.
+
+See [`webapp/README.md`](webapp/README.md) for the API reference, local setup and Vercel deployment steps.
+
 ## 🔮 Future Improvements
 
 - Develop an interactive web application.

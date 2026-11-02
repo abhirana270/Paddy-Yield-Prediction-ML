@@ -1,0 +1,1142 @@
+{
+ "version": 1,
+ "classes": [
+  "Low",
+  "Medium",
+  "High"
+ ],
+ "category_edges_kg": [
+  5410.0,
+  17508.0,
+  30250.0,
+  38814.0
+ ],
+ "preprocessing": {
+  "numeric": [
+   {
+    "name": "Hectares",
+    "mean": 3.73048128342246,
+    "scale": 1.4467671072027848
+   },
+   {
+    "name": "Seedrate(in Kg)",
+    "mean": 93.2620320855615,
+    "scale": 36.16917768006962
+   },
+   {
+    "name": "LP_Mainfield(in Tonnes)",
+    "mean": 46.63101604278075,
+    "scale": 18.08458884003481
+   },
+   {
+    "name": "Nursery area (Cents)",
+    "mean": 74.6096256684492,
+    "scale": 28.935342144055696
+   },
+   {
+    "name": "LP_nurseryarea(in Tonnes)",
+    "mean": 3.73048128342246,
+    "scale": 1.4467671072027848
+   },
+   {
+    "name": "DAP_20days",
+    "mean": 149.2192513368984,
+    "scale": 57.87068428811139
+   },
+   {
+    "name": "Weed28D_thiobencarb",
+    "mean": 7.46096256684492,
+    "scale": 2.8935342144055696
+   },
+   {
+    "name": "Urea_40Days",
+    "mean": 101.20795721925136,
+    "scale": 39.250791618411554
+   },
+   {
+    "name": "Potassh_50Days",
+    "mean": 38.72239572192512,
+    "scale": 15.017442572764907
+   },
+   {
+    "name": "Micronutrients_70Days",
+    "mean": 55.9572192513369,
+    "scale": 21.701506608041772
+   },
+   {
+    "name": "Pest_60Day(in ml)",
+    "mean": 2238.288770053476,
+    "scale": 868.060264321671
+   },
+   {
+    "name": "30DRain( in mm)",
+    "mean": 18.704438502673796,
+    "scale": 0.6377488653083094
+   },
+   {
+    "name": "30DAI(in mm)",
+    "mean": 21.2955614973262,
+    "scale": 0.6377488653083095
+   },
+   {
+    "name": "30_50DRain( in mm)",
+    "mean": 185.99187165775396,
+    "scale": 0.8474297248789896
+   },
+   {
+    "name": "30_50DAI(in mm)",
+    "mean": 272.0081283422461,
+    "scale": 0.8474297248789847
+   },
+   {
+    "name": "51_70DRain(in mm)",
+    "mean": 166.14454545454544,
+    "scale": 0.6738743292114949
+   },
+   {
+    "name": "51_70AI(in mm)",
+    "mean": 250.85545454545456,
+    "scale": 0.6738743292114949
+   },
+   {
+    "name": "71_105DRain(in mm)",
+    "mean": 60.39593582887701,
+    "scale": 0.4237148624394948
+   },
+   {
+    "name": "71_105DAI(in mm)",
+    "mean": 64.60406417112299,
+    "scale": 0.4237148624394948
+   },
+   {
+    "name": "Min temp_D1_D30",
+    "mean": 19.32994652406417,
+    "scale": 0.8787214200409137
+   },
+   {
+    "name": "Max temp_D1_D30",
+    "mean": 33.106951871657756,
+    "scale": 1.334168335487049
+   },
+   {
+    "name": "Min temp_D31_D60",
+    "mean": 17.121657754010695,
+    "scale": 1.0369053249555422
+   },
+   {
+    "name": "Max temp_D31_D60",
+    "mean": 31.312299465240642,
+    "scale": 2.5208878319200774
+   },
+   {
+    "name": "Min temp_D61_D90",
+    "mean": 16.673529411764704,
+    "scale": 1.0787048348796358
+   },
+   {
+    "name": "Max temp_D61_D90",
+    "mean": 32.6764705882353,
+    "scale": 1.0740658684534479
+   },
+   {
+    "name": "Min temp_D91_D120",
+    "mean": 16.192245989304812,
+    "scale": 0.9161759536202289
+   },
+   {
+    "name": "Max temp_D91_D120",
+    "mean": 32.71283422459893,
+    "scale": 1.4838330149881367
+   },
+   {
+    "name": "Inst Wind Speed_D1_D30(in Knots)",
+    "mean": 7.194652406417112,
+    "scale": 2.554135424537868
+   },
+   {
+    "name": "Inst Wind Speed_D31_D60(in Knots)",
+    "mean": 8.540106951871659,
+    "scale": 3.1890933768237963
+   },
+   {
+    "name": "Inst Wind Speed_D61_D90(in Knots)",
+    "mean": 8.133689839572192,
+    "scale": 2.005684107237505
+   },
+   {
+    "name": "Inst Wind Speed_D91_D120(in Knots)",
+    "mean": 9.494117647058824,
+    "scale": 2.500634710243303
+   },
+   {
+    "name": "Relative Humidity_D1_D30",
+    "mean": 76.46016042780748,
+    "scale": 7.9421565906976
+   },
+   {
+    "name": "Relative Humidity_D31_D60",
+    "mean": 87.6379679144385,
+    "scale": 6.805074556600806
+   },
+   {
+    "name": "Relative Humidity_D61_D90",
+    "mean": 85.21336898395722,
+    "scale": 3.547226511328867
+   },
+   {
+    "name": "Relative Humidity_D91_D120",
+    "mean": 83.83957219251337,
+    "scale": 3.160913668237441
+   },
+   {
+    "name": "Trash(in bundles)",
+    "mean": 336.8983957219251,
+    "scale": 135.8042210979266
+   }
+  ],
+  "categorical": [
+   {
+    "name": "Agriblock",
+    "categories": [
+     "Chinnasalem",
+     "Cuddalore",
+     "Kallakurichi",
+     "Kurinjipadi",
+     "Panruti",
+     "Sankarapuram"
+    ]
+   },
+   {
+    "name": "Variety",
+    "categories": [
+     "CO_43",
+     "delux ponni",
+     "ponmani"
+    ]
+   },
+   {
+    "name": "Soil Types",
+    "categories": [
+     "alluvial",
+     "clay"
+    ]
+   },
+   {
+    "name": "Nursery",
+    "categories": [
+     "dry",
+     "wet"
+    ]
+   },
+   {
+    "name": "Wind Direction_D1_D30",
+    "categories": [
+     "E",
+     "ENE",
+     "NW",
+     "SSE",
+     "SW",
+     "W"
+    ]
+   },
+   {
+    "name": "Wind Direction_D31_D60",
+    "categories": [
+     "ENE",
+     "NE",
+     "S",
+     "W",
+     "WNW"
+    ]
+   },
+   {
+    "name": "Wind Direction_D61_D90",
+    "categories": [
+     "NE",
+     "NNE",
+     "NNW",
+     "SE",
+     "SW"
+    ]
+   },
+   {
+    "name": "Wind Direction_D91_D120",
+    "categories": [
+     "NNW",
+     "NW",
+     "S",
+     "SSE",
+     "W",
+     "WSW"
+    ]
+   }
+  ]
+ },
+ "classifier": {
+  "type": "logistic_regression",
+  "coef": [
+   [
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.8670729083,
+    -0.0047299499,
+    0.0047299499,
+    -0.0008847664,
+    0.0008847664,
+    0.0019214192,
+    -0.0019214192,
+    -0.0008847664,
+    0.0008847664,
+    0.0016789319,
+    0.0056782383,
+    -0.0002295532,
+    -0.0008994233,
+    -0.0009796138,
+    0.0215572255,
+    0.0201043666,
+    -0.0024552517,
+    -0.019730951,
+    0.0144704641,
+    -0.0206598882,
+    0.026986512,
+    -0.0051555076,
+    -0.007843537,
+    0.0228957514,
+    -0.0070019712,
+    -0.701533412,
+    0.0156777593,
+    0.0094782506,
+    -0.0027572461,
+    0.0099482931,
+    0.0194174178,
+    0.0124610905,
+    0.2472550137,
+    -0.3502708311,
+    0.1672413826,
+    0.1868096116,
+    -0.1225840464,
+    0.0912543442,
+    -0.027028779,
+    0.0156777593,
+    0.0194174178,
+    0.0099482931,
+    0.0124610905,
+    0.0094782506,
+    -0.0027572461,
+    0.0156777593,
+    0.0194174178,
+    0.0099482931,
+    0.0219393411,
+    -0.0027572461,
+    0.0156777593,
+    0.0194174178,
+    0.0094782506,
+    0.007191047,
+    0.0124610905,
+    0.0156777593,
+    0.0124610905,
+    -0.0027572461,
+    0.0099482931,
+    0.0194174178,
+    0.0094782506
+   ],
+   [
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    -0.0843046723,
+    0.0187195678,
+    -0.0187195678,
+    0.0036142477,
+    -0.0036142477,
+    -0.0074261379,
+    0.0074261379,
+    0.0036142477,
+    -0.0036142477,
+    -0.0167941079,
+    0.0164132656,
+    -0.0149171696,
+    -0.0099334602,
+    -0.0146535881,
+    -0.0496613439,
+    -0.012116485,
+    0.0059332012,
+    -0.0144997692,
+    -0.0029870864,
+    -0.0048356157,
+    -0.0243393369,
+    0.0240553808,
+    0.005359665,
+    -0.0199972696,
+    -0.000923592,
+    0.3276566659,
+    -0.0126974662,
+    0.008329812,
+    0.0131007907,
+    -0.0101343448,
+    -0.0077245071,
+    -0.0115458151,
+    -0.0475887899,
+    -0.1658177133,
+    0.1927349727,
+    0.0487447765,
+    -0.069416307,
+    -0.0817413018,
+    0.0610697713,
+    -0.0126974662,
+    -0.0077245071,
+    -0.0101343448,
+    -0.0115458151,
+    0.008329812,
+    0.0131007907,
+    -0.0126974662,
+    -0.0077245071,
+    -0.0101343448,
+    -0.0032160031,
+    0.0131007907,
+    -0.0126974662,
+    -0.0077245071,
+    0.008329812,
+    0.0029664459,
+    -0.0115458151,
+    -0.0126974662,
+    -0.0115458151,
+    0.0131007907,
+    -0.0101343448,
+    -0.0077245071,
+    0.008329812
+   ],
+   [
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    0.9513775806,
+    -0.0139896179,
+    0.0139896179,
+    -0.0027294813,
+    0.0027294813,
+    0.0055047187,
+    -0.0055047187,
+    -0.0027294813,
+    0.0027294813,
+    0.015115176,
+    -0.0220915039,
+    0.0151467229,
+    0.0108328834,
+    0.0156332019,
+    0.0281041184,
+    -0.0079878816,
+    -0.0034779495,
+    0.0342307202,
+    -0.0114833777,
+    0.025495504,
+    -0.0026471752,
+    -0.0188998732,
+    0.0024838721,
+    -0.0028984818,
+    0.0079255632,
+    0.373876746,
+    -0.0029802931,
+    -0.0178080626,
+    -0.0103435446,
+    0.0001860517,
+    -0.0116929106,
+    -0.0009152754,
+    -0.1996662238,
+    0.5160885444,
+    -0.3599763553,
+    -0.2355543881,
+    0.1920003535,
+    -0.0095130424,
+    -0.0340409923,
+    -0.0029802931,
+    -0.0116929106,
+    0.0001860517,
+    -0.0009152754,
+    -0.0178080626,
+    -0.0103435446,
+    -0.0029802931,
+    -0.0116929106,
+    0.0001860517,
+    -0.018723338,
+    -0.0103435446,
+    -0.0029802931,
+    -0.0116929106,
+    -0.0178080626,
+    -0.0101574929,
+    -0.0009152754,
+    -0.0029802931,
+    -0.0009152754,
+    -0.0103435446,
+    0.0001860517,
+    -0.0116929106,
+    -0.0178080626
+   ]
+  ],
+  "intercept": [
+   -0.3308037924,
+   4.2159618702,
+   -3.8851580778
+  ]
+ },
+ "regressor_preprocessing": {
+  "numeric": [
+   {
+    "name": "Hectares",
+    "mean": 3.73048128342246,
+    "scale": 1.4467671072027848
+   },
+   {
+    "name": "Seedrate(in Kg)",
+    "mean": 93.2620320855615,
+    "scale": 36.16917768006962
+   },
+   {
+    "name": "LP_Mainfield(in Tonnes)",
+    "mean": 46.63101604278075,
+    "scale": 18.08458884003481
+   },
+   {
+    "name": "Nursery area (Cents)",
+    "mean": 74.6096256684492,
+    "scale": 28.935342144055696
+   },
+   {
+    "name": "LP_nurseryarea(in Tonnes)",
+    "mean": 3.73048128342246,
+    "scale": 1.4467671072027848
+   },
+   {
+    "name": "DAP_20days",
+    "mean": 149.2192513368984,
+    "scale": 57.87068428811139
+   },
+   {
+    "name": "Weed28D_thiobencarb",
+    "mean": 7.46096256684492,
+    "scale": 2.8935342144055696
+   },
+   {
+    "name": "Urea_40Days",
+    "mean": 101.20795721925136,
+    "scale": 39.250791618411554
+   },
+   {
+    "name": "Potassh_50Days",
+    "mean": 38.72239572192512,
+    "scale": 15.017442572764907
+   },
+   {
+    "name": "Micronutrients_70Days",
+    "mean": 55.9572192513369,
+    "scale": 21.701506608041772
+   },
+   {
+    "name": "Pest_60Day(in ml)",
+    "mean": 2238.288770053476,
+    "scale": 868.060264321671
+   },
+   {
+    "name": "30DRain( in mm)",
+    "mean": 18.704438502673796,
+    "scale": 0.6377488653083094
+   },
+   {
+    "name": "30DAI(in mm)",
+    "mean": 21.2955614973262,
+    "scale": 0.6377488653083095
+   },
+   {
+    "name": "30_50DRain( in mm)",
+    "mean": 185.99187165775396,
+    "scale": 0.8474297248789896
+   },
+   {
+    "name": "30_50DAI(in mm)",
+    "mean": 272.0081283422461,
+    "scale": 0.8474297248789847
+   },
+   {
+    "name": "51_70DRain(in mm)",
+    "mean": 166.14454545454544,
+    "scale": 0.6738743292114949
+   },
+   {
+    "name": "51_70AI(in mm)",
+    "mean": 250.85545454545456,
+    "scale": 0.6738743292114949
+   },
+   {
+    "name": "71_105DRain(in mm)",
+    "mean": 60.39593582887701,
+    "scale": 0.4237148624394948
+   },
+   {
+    "name": "71_105DAI(in mm)",
+    "mean": 64.60406417112299,
+    "scale": 0.4237148624394948
+   },
+   {
+    "name": "Min temp_D1_D30",
+    "mean": 19.32994652406417,
+    "scale": 0.8787214200409137
+   },
+   {
+    "name": "Max temp_D1_D30",
+    "mean": 33.106951871657756,
+    "scale": 1.334168335487049
+   },
+   {
+    "name": "Min temp_D31_D60",
+    "mean": 17.121657754010695,
+    "scale": 1.0369053249555422
+   },
+   {
+    "name": "Max temp_D31_D60",
+    "mean": 31.312299465240642,
+    "scale": 2.5208878319200774
+   },
+   {
+    "name": "Min temp_D61_D90",
+    "mean": 16.673529411764704,
+    "scale": 1.0787048348796358
+   },
+   {
+    "name": "Max temp_D61_D90",
+    "mean": 32.6764705882353,
+    "scale": 1.0740658684534479
+   },
+   {
+    "name": "Min temp_D91_D120",
+    "mean": 16.192245989304812,
+    "scale": 0.9161759536202289
+   },
+   {
+    "name": "Max temp_D91_D120",
+    "mean": 32.71283422459893,
+    "scale": 1.4838330149881367
+   },
+   {
+    "name": "Inst Wind Speed_D1_D30(in Knots)",
+    "mean": 7.194652406417112,
+    "scale": 2.554135424537868
+   },
+   {
+    "name": "Inst Wind Speed_D31_D60(in Knots)",
+    "mean": 8.540106951871659,
+    "scale": 3.1890933768237963
+   },
+   {
+    "name": "Inst Wind Speed_D61_D90(in Knots)",
+    "mean": 8.133689839572192,
+    "scale": 2.005684107237505
+   },
+   {
+    "name": "Inst Wind Speed_D91_D120(in Knots)",
+    "mean": 9.494117647058824,
+    "scale": 2.500634710243303
+   },
+   {
+    "name": "Relative Humidity_D1_D30",
+    "mean": 76.46016042780748,
+    "scale": 7.9421565906976
+   },
+   {
+    "name": "Relative Humidity_D31_D60",
+    "mean": 87.6379679144385,
+    "scale": 6.805074556600806
+   },
+   {
+    "name": "Relative Humidity_D61_D90",
+    "mean": 85.21336898395722,
+    "scale": 3.547226511328867
+   },
+   {
+    "name": "Relative Humidity_D91_D120",
+    "mean": 83.83957219251337,
+    "scale": 3.160913668237441
+   },
+   {
+    "name": "Trash(in bundles)",
+    "mean": 336.8983957219251,
+    "scale": 135.8042210979266
+   }
+  ],
+  "categorical": [
+   {
+    "name": "Agriblock",
+    "categories": [
+     "Chinnasalem",
+     "Cuddalore",
+     "Kallakurichi",
+     "Kurinjipadi",
+     "Panruti",
+     "Sankarapuram"
+    ]
+   },
+   {
+    "name": "Variety",
+    "categories": [
+     "CO_43",
+     "delux ponni",
+     "ponmani"
+    ]
+   },
+   {
+    "name": "Soil Types",
+    "categories": [
+     "alluvial",
+     "clay"
+    ]
+   },
+   {
+    "name": "Nursery",
+    "categories": [
+     "dry",
+     "wet"
+    ]
+   },
+   {
+    "name": "Wind Direction_D1_D30",
+    "categories": [
+     "E",
+     "ENE",
+     "NW",
+     "SSE",
+     "SW",
+     "W"
+    ]
+   },
+   {
+    "name": "Wind Direction_D31_D60",
+    "categories": [
+     "ENE",
+     "NE",
+     "S",
+     "W",
+     "WNW"
+    ]
+   },
+   {
+    "name": "Wind Direction_D61_D90",
+    "categories": [
+     "NE",
+     "NNE",
+     "NNW",
+     "SE",
+     "SW"
+    ]
+   },
+   {
+    "name": "Wind Direction_D91_D120",
+    "categories": [
+     "NNW",
+     "NW",
+     "S",
+     "SSE",
+     "W",
+     "WSW"
+    ]
+   }
+  ]
+ },
+ "regressor": {
+  "type": "linear_regression",
+  "coef": [
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   982.8069634966,
+   -6.1947055596,
+   6.1947055596,
+   -1.7465595053,
+   1.7465595053,
+   1.5864907435,
+   -1.5864907435,
+   -1.7465595053,
+   1.7465595053,
+   5.7378942795,
+   -6.4299724381,
+   6.1821073292,
+   4.9401166575,
+   5.5489398955,
+   14.8688955022,
+   1.4243187661,
+   -2.9551283588,
+   8.4074635131,
+   -2.1435316011,
+   4.2760193529,
+   3.790870092,
+   -7.2558669279,
+   0.0367813389,
+   3.3951339914,
+   1.6270220642,
+   -1681.3498335809,
+   2.6740974276,
+   -4.5614127965,
+   -3.7603821273,
+   2.809557028,
+   0.4531751557,
+   2.3849653126,
+   -13.9078823762,
+   -328.5356708366,
+   342.4435532128,
+   -29.7283199421,
+   29.7283199421,
+   -25.1887363503,
+   25.1887363503,
+   2.6740974276,
+   0.4531751557,
+   2.809557028,
+   2.3849653126,
+   -4.5614127965,
+   -3.7603821273,
+   2.6740974276,
+   0.4531751557,
+   2.809557028,
+   -2.1764474839,
+   -3.7603821273,
+   2.6740974276,
+   0.4531751557,
+   -4.5614127965,
+   -0.9508250993,
+   2.3849653126,
+   2.6740974276,
+   2.3849653126,
+   -3.7603821273,
+   2.809557028,
+   0.4531751557,
+   -4.5614127965
+  ],
+  "intercept": 22559.437768652868
+ },
+ "feature_builder": {
+  "per_hectare": {
+   "Seedrate(in Kg)": 25.0,
+   "LP_Mainfield(in Tonnes)": 12.5,
+   "Nursery area (Cents)": 20.0,
+   "LP_nurseryarea(in Tonnes)": 1.0,
+   "DAP_20days": 40.0,
+   "Weed28D_thiobencarb": 2.0,
+   "Urea_40Days": 27.13,
+   "Potassh_50Days": 10.38,
+   "Micronutrients_70Days": 15.0,
+   "Pest_60Day(in ml)": 600.0
+  },
+  "trash_per_hectare_by_variety": {
+   "CO_43": 90.0,
+   "delux ponni": 80.0,
+   "ponmani": 100.0
+  },
+  "block_profiles": {
+   "Chinnasalem": {
+    "30DRain( in mm)": 18.1,
+    "30DAI(in mm)": 21.9,
+    "30_50DRain( in mm)": 185.6,
+    "30_50DAI(in mm)": 272.4,
+    "51_70DRain(in mm)": 166.1,
+    "51_70AI(in mm)": 250.9,
+    "71_105DRain(in mm)": 60.2,
+    "71_105DAI(in mm)": 64.8,
+    "Min temp_D1_D30": 18.0,
+    "Max temp_D1_D30": 31,
+    "Min temp_D31_D60": 15.5,
+    "Max temp_D31_D60": 34,
+    "Min temp_D61_D90": 15.0,
+    "Max temp_D61_D90": 33.0,
+    "Min temp_D91_D120": 15.0,
+    "Max temp_D91_D120": 31.5,
+    "Inst Wind Speed_D1_D30(in Knots)": 6,
+    "Inst Wind Speed_D31_D60(in Knots)": 6,
+    "Inst Wind Speed_D61_D90(in Knots)": 8,
+    "Inst Wind Speed_D91_D120(in Knots)": 10,
+    "Wind Direction_D1_D30": "E",
+    "Wind Direction_D31_D60": "ENE",
+    "Wind Direction_D61_D90": "NE",
+    "Wind Direction_D91_D120": "NNW",
+    "Relative Humidity_D1_D30": 78.6,
+    "Relative Humidity_D31_D60": 80,
+    "Relative Humidity_D61_D90": 92,
+    "Relative Humidity_D91_D120": 88
+   },
+   "Cuddalore": {
+    "30DRain( in mm)": 19.6,
+    "30DAI(in mm)": 20.4,
+    "30_50DRain( in mm)": 187.2,
+    "30_50DAI(in mm)": 270.8,
+    "51_70DRain(in mm)": 167.0,
+    "51_70AI(in mm)": 250.0,
+    "71_105DRain(in mm)": 61.0,
+    "71_105DAI(in mm)": 64.0,
+    "Min temp_D1_D30": 18.5,
+    "Max temp_D1_D30": 34,
+    "Min temp_D31_D60": 16.0,
+    "Max temp_D31_D60": 30,
+    "Min temp_D61_D90": 15.5,
+    "Max temp_D61_D90": 31.0,
+    "Min temp_D91_D120": 16.0,
+    "Max temp_D91_D120": 33.0,
+    "Inst Wind Speed_D1_D30(in Knots)": 4,
+    "Inst Wind Speed_D31_D60(in Knots)": 10,
+    "Inst Wind Speed_D61_D90(in Knots)": 8,
+    "Inst Wind Speed_D91_D120(in Knots)": 10,
+    "Wind Direction_D1_D30": "SW",
+    "Wind Direction_D31_D60": "W",
+    "Wind Direction_D61_D90": "NNW",
+    "Wind Direction_D91_D120": "WSW",
+    "Relative Humidity_D1_D30": 72.0,
+    "Relative Humidity_D31_D60": 78,
+    "Relative Humidity_D61_D90": 88,
+    "Relative Humidity_D91_D120": 85
+   },
+   "Kallakurichi": {
+    "30DRain( in mm)": 18.5,
+    "30DAI(in mm)": 21.5,
+    "30_50DRain( in mm)": 185.2,
+    "30_50DAI(in mm)": 272.8,
+    "51_70DRain(in mm)": 165.3,
+    "51_70AI(in mm)": 251.7,
+    "71_105DRain(in mm)": 60.0,
+    "71_105DAI(in mm)": 65.0,
+    "Min temp_D1_D30": 19.0,
+    "Max temp_D1_D30": 33,
+    "Min temp_D31_D60": 17.0,
+    "Max temp_D31_D60": 32,
+    "Min temp_D61_D90": 16.5,
+    "Max temp_D61_D90": 31.5,
+    "Min temp_D91_D120": 15.5,
+    "Max temp_D91_D120": 32.5,
+    "Inst Wind Speed_D1_D30(in Knots)": 8,
+    "Inst Wind Speed_D31_D60(in Knots)": 6,
+    "Inst Wind Speed_D61_D90(in Knots)": 8,
+    "Inst Wind Speed_D91_D120(in Knots)": 6,
+    "Wind Direction_D1_D30": "W",
+    "Wind Direction_D31_D60": "WNW",
+    "Wind Direction_D61_D90": "SE",
+    "Wind Direction_D91_D120": "S",
+    "Relative Humidity_D1_D30": 88.5,
+    "Relative Humidity_D31_D60": 95,
+    "Relative Humidity_D61_D90": 81,
+    "Relative Humidity_D91_D120": 84
+   },
+   "Kurinjipadi": {
+    "30DRain( in mm)": 19.6,
+    "30DAI(in mm)": 20.4,
+    "30_50DRain( in mm)": 187.2,
+    "30_50DAI(in mm)": 270.8,
+    "51_70DRain(in mm)": 167.0,
+    "51_70AI(in mm)": 250.0,
+    "71_105DRain(in mm)": 61.0,
+    "71_105DAI(in mm)": 64.0,
+    "Min temp_D1_D30": 19.5,
+    "Max temp_D1_D30": 34,
+    "Min temp_D31_D60": 18.5,
+    "Max temp_D31_D60": 35,
+    "Min temp_D61_D90": 17.0,
+    "Max temp_D61_D90": 32.5,
+    "Min temp_D91_D120": 16.0,
+    "Max temp_D91_D120": 30.5,
+    "Inst Wind Speed_D1_D30(in Knots)": 10,
+    "Inst Wind Speed_D31_D60(in Knots)": 4,
+    "Inst Wind Speed_D61_D90(in Knots)": 10,
+    "Inst Wind Speed_D91_D120(in Knots)": 6,
+    "Wind Direction_D1_D30": "NW",
+    "Wind Direction_D31_D60": "S",
+    "Wind Direction_D61_D90": "SE",
+    "Wind Direction_D91_D120": "SSE",
+    "Relative Humidity_D1_D30": 64.6,
+    "Relative Humidity_D31_D60": 85,
+    "Relative Humidity_D61_D90": 84,
+    "Relative Humidity_D91_D120": 87
+   },
+   "Panruti": {
+    "30DRain( in mm)": 18.5,
+    "30DAI(in mm)": 21.5,
+    "30_50DRain( in mm)": 185.2,
+    "30_50DAI(in mm)": 272.8,
+    "51_70DRain(in mm)": 165.3,
+    "51_70AI(in mm)": 251.7,
+    "71_105DRain(in mm)": 60.0,
+    "71_105DAI(in mm)": 65.0,
+    "Min temp_D1_D30": 20.0,
+    "Max temp_D1_D30": 35,
+    "Min temp_D31_D60": 18.0,
+    "Max temp_D31_D60": 30,
+    "Min temp_D61_D90": 17.5,
+    "Max temp_D61_D90": 33.5,
+    "Min temp_D91_D120": 18.0,
+    "Max temp_D91_D120": 33.0,
+    "Inst Wind Speed_D1_D30(in Knots)": 4,
+    "Inst Wind Speed_D31_D60(in Knots)": 12,
+    "Inst Wind Speed_D61_D90(in Knots)": 4,
+    "Inst Wind Speed_D91_D120(in Knots)": 12,
+    "Wind Direction_D1_D30": "ENE",
+    "Wind Direction_D31_D60": "NE",
+    "Wind Direction_D61_D90": "NNE",
+    "Wind Direction_D91_D120": "W",
+    "Relative Humidity_D1_D30": 85.0,
+    "Relative Humidity_D31_D60": 96,
+    "Relative Humidity_D61_D90": 84,
+    "Relative Humidity_D91_D120": 79
+   },
+   "Sankarapuram": {
+    "30DRain( in mm)": 18.1,
+    "30DAI(in mm)": 21.9,
+    "30_50DRain( in mm)": 185.6,
+    "30_50DAI(in mm)": 272.4,
+    "51_70DRain(in mm)": 166.1,
+    "51_70AI(in mm)": 250.9,
+    "71_105DRain(in mm)": 60.2,
+    "71_105DAI(in mm)": 64.8,
+    "Min temp_D1_D30": 20.5,
+    "Max temp_D1_D30": 32,
+    "Min temp_D31_D60": 17.5,
+    "Max temp_D31_D60": 28,
+    "Min temp_D61_D90": 18.0,
+    "Max temp_D61_D90": 34.0,
+    "Min temp_D91_D120": 16.5,
+    "Max temp_D91_D120": 35.0,
+    "Inst Wind Speed_D1_D30(in Knots)": 10,
+    "Inst Wind Speed_D31_D60(in Knots)": 12,
+    "Inst Wind Speed_D61_D90(in Knots)": 10,
+    "Inst Wind Speed_D91_D120(in Knots)": 12,
+    "Wind Direction_D1_D30": "SSE",
+    "Wind Direction_D31_D60": "W",
+    "Wind Direction_D61_D90": "SW",
+    "Wind Direction_D91_D120": "NW",
+    "Relative Humidity_D1_D30": 72.7,
+    "Relative Humidity_D31_D60": 91,
+    "Relative Humidity_D61_D90": 83,
+    "Relative Humidity_D91_D120": 81
+   }
+  }
+ },
+ "inputs": {
+  "hectares": {
+   "min": 1.0,
+   "max": 6.0
+  },
+  "Agriblock": [
+   "Chinnasalem",
+   "Cuddalore",
+   "Kallakurichi",
+   "Kurinjipadi",
+   "Panruti",
+   "Sankarapuram"
+  ],
+  "Variety": [
+   "CO_43",
+   "delux ponni",
+   "ponmani"
+  ],
+  "Soil Types": [
+   "alluvial",
+   "clay"
+  ],
+  "Nursery": [
+   "dry",
+   "wet"
+  ]
+ },
+ "metrics": {
+  "rows_raw": 2789,
+  "rows_after_dedup": 2338,
+  "train_rows": 1870,
+  "test_rows": 468,
+  "feature_columns": 44,
+  "comparison": [
+   {
+    "model": "SVM",
+    "accuracy": 0.8803,
+    "f1_macro": 0.8722
+   },
+   {
+    "model": "Logistic Regression",
+    "accuracy": 0.8739,
+    "f1_macro": 0.8671
+   },
+   {
+    "model": "Naive Bayes",
+    "accuracy": 0.8739,
+    "f1_macro": 0.8664
+   },
+   {
+    "model": "Decision Tree",
+    "accuracy": 0.8675,
+    "f1_macro": 0.8623
+   },
+   {
+    "model": "Random Forest",
+    "accuracy": 0.859,
+    "f1_macro": 0.8533
+   },
+   {
+    "model": "KNN",
+    "accuracy": 0.8526,
+    "f1_macro": 0.8468
+   }
+  ],
+  "confusion_matrix": {
+   "labels": [
+    "Low",
+    "Medium",
+    "High"
+   ],
+   "matrix": [
+    [
+     151,
+     6,
+     0
+    ],
+    [
+     25,
+     103,
+     28
+    ],
+    [
+     0,
+     0,
+     155
+    ]
+   ]
+  },
+  "regressor": {
+   "r2": 0.9892,
+   "mae_kg": 748.7
+  },
+  "yield_per_hectare_kg": {
+   "min": 5410.0,
+   "mean": 5985.0,
+   "max": 6469.0
+  }
+ }
+}

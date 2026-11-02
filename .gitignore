@@ -5,3 +5,4 @@ venv/
 .ipynb_checkpoints/
 .DS_Store
 12401018.docx
+.venv/
