@@ -161,20 +161,19 @@ GitHub: [@abhirana270](https://github.com/abhirana270)
 
 ### Exploratory Data Analysis
 
-![Figure 1](Figure_1.png)
+![Figure 1](images/Figure_1.png)
 
-![Figure 2](Figure_2.png)
+![Figure 2](images/Figure_2.png)
 
-![Figure 3](Figure_3.png)
+![Figure 3](images/Figure_3.png)
 
 ### Confusion Matrix
 
-![Confusion Matrix](Figure_4_confuson%20matr.png)
+![Confusion Matrix](images/Figure_4_confuson%20matr.png)
 
 ### Classification Algorithm Comparison
 
-![Classification Algorithms](Figure_7.png)
-
+![Classification Algorithms](images/Figure_7.png)
 
 
 ⭐ If you find this project interesting, consider giving the repository a star!
