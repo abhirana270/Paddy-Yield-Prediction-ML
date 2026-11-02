@@ -7,7 +7,7 @@ warnings.filterwarnings("ignore")
 
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\hp\Desktop\paddydataset\paddydataset.csv")
+df = pd.read_csv("dataset/paddydataset.csv")
 
 # Dataset overview
 print("Dataset Shape:", df.shape)
