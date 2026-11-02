@@ -111,7 +111,7 @@ cd Paddy-Yield-Prediction-ML
 ### 3. Install dependencies
 
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn
+pip install -r requirements.txt
 ```
 
 ### 4. Run the Python file
