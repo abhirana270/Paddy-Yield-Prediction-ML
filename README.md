@@ -1,4 +1,10 @@
 # 🌾 Paddy Yield Prediction Using Machine Learning
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-orange)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-yellow?logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![Status](https://img.shields.io/badge/Project-Completed-success)
+
 
 ## 📌 Project Overview
 
@@ -168,5 +174,7 @@ GitHub: [@abhirana270](https://github.com/abhirana270)
 ### Classification Algorithm Comparison
 
 ![Classification Algorithms](Figure_7.png)
+
+
 
 ⭐ If you find this project interesting, consider giving the repository a star!
